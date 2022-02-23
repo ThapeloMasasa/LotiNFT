@@ -1,0 +1,95 @@
+.maintext{
+    color: white;
+}
+.main{
+    display: flex;
+    max-height: 50vh;
+    padding-bottom: 20px;
+    border-bottom:1px #fff;
+    
+}
+.title{
+    font-size: 96px;
+    font-weight: 800;
+}
+.itemNumber{
+    color: #a1a5b0;
+    font-size: 72px;
+    align-self: center;
+}
+.coinHighlight{
+    flex:0.25;
+    display:flex;
+    overflow: hidden;
+    margin-right: 20px;
+}
+.ownerDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex:0.75;
+}
+.mainContent{
+    display: flex;
+    padding-bottom: 20px;
+   
+}
+.selectedCoin{
+    object-fit: contain;
+    max-width: min(30vw, 40vh);
+    max-height: 30vw;
+    border-radius: 20px;
+   
+}
+.coinDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 0.75;
+}
+.owner{
+    display: flex;
+    margin: 10px 0;
+    height: 50px;
+}
+.owner > div{
+    margin: 0 5px;
+}
+.ownerImageContainer{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border-radius: 50px;
+    overflow: hidden;
+    object-fit: contain;
+}
+.ownerImageContainer > img{
+    height: 100%;
+    width: 100%;
+}
+.ownerImageAndHandle{
+    display: flex;
+    flex: auto;
+    justify-content: right;
+    
+}
+.ownerNameAndHandle{
+    flex: 1;
+}
+.ownerHandle{
+    color: #00ebfe;
+}
+
+.ownerLink{
+    padding: 12px;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    border: 1px solid #fff;
+    margin: 0 0 0 10px;
+}
+
+.ownerLink > img{
+    height: 100%;
+    width: 100%;
+}
